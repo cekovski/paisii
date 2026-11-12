@@ -1,0 +1,17 @@
+# Nur eigener Code wird versioniert. WordPress-Core, fremde Plugins/Themes,
+# Uploads und wp-config.php bleiben draussen (Core kommt per CloudPanel / wp-cli).
+/*
+!/.gitignore
+!/README.md
+!/nginx/
+
+!/wp-content/
+/wp-content/*
+!/wp-content/themes/
+/wp-content/themes/*
+!/wp-content/themes/paisii/
+!/wp-content/mu-plugins/
+
+.DS_Store
+node_modules/
+*.log
